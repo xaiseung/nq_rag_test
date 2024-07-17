@@ -28,7 +28,7 @@ HuggingFace, FAISS 라이브러리를 사용하여, Google의 Natural Questions 
 python 01_only_bart.py
 ```
 
-## RAG
+## RAG (RagToken)
 
 - [CUTLASS](https://github.com/NVIDIA/cutlass/blob/main/media/docs/quickstart.md)를 설치하고, 환경변수 `$CUTLASS_PATH=/path/to/cutlass`를 설정해야 합니다.
 ```
