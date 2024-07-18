@@ -37,7 +37,7 @@ python 02_rag_bart.py
 
 ## RAG w/o training
 
-주피터 노트북으로 [`03A_prepare_faiss.ipynb`](03A_prepare_faiss.ipynb) 과 [`03B_RAN_langchain.ipynb`](03B_RAG_langchain.ipynb) 를 실행하세요.
+주피터 노트북으로 [`03A_prepare_faiss.ipynb`](03A_prepare_faiss.ipynb) 과 [`03B_RAG_langchain.ipynb`](03B_RAG_langchain.ipynb) 를 실행하세요.
 
 RAM과 디스크 용량이 많이 필요합니다. (RAM은 100GB, disk는 (nq 데이터셋 제외) 250GB+)
 
