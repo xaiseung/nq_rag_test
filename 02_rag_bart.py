@@ -91,6 +91,7 @@ model.config.reduce_loss = True
 
 raw_datasets = datasets.load_dataset("google-research-datasets/natural_questions")
 
+# 정답이 없는 데이터를 제외합니다.
 new_datasets = raw_datasets.filter(
     lambda batch: [len("".join([t for sa in d["short_answers"] for t in sa["text"] ]) )>0 for d in batch["annotations"]],
     batched=True)
