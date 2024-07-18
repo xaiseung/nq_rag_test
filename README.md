@@ -39,8 +39,10 @@ python 02_rag_bart.py
 
 주피터 노트북으로 [`03A_prepare_faiss.ipynb`](03A_prepare_faiss.ipynb) 과 [`03B_RAN_langchain.ipynb`](03B_RAG_langchain.ipynb) 를 실행하세요.
 
-RAM과 디스크 용량이 많이 필요합니다.
+RAM과 디스크 용량이 많이 필요합니다. (RAM은 100GB, disk는 (nq 데이터셋 제외) 250GB+)
 
 `03B`에서 기본적으로 llama3를 사용하며, 너무 모델이 크다면 huggingface에서 다른 일반목적 LLM을 사용하세요.
 
 해당 코드에서 출력 결과를 질적으로 참고하는 수준입니다. 다른 두 코드와 달리 통계적인 평가는 하지 않습니다.
+
+***TODO: RAG를 사용하되 메모리 덜 먹는 모델 (huggingface RAG 모델 참조해서)***
